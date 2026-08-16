@@ -16,7 +16,7 @@ import Dashboard from "./pages/Dashboard";
 import StateComparison from "./pages/StateComparison";
 import PriorityAreas from "./pages/PriorityAreas";
 
-const API = "http://localhost:5000";
+const API = "https://aser-rural-learning-analysis.onrender.com";
 
 function getRisk(value) {
   if (value < 0.4) {
